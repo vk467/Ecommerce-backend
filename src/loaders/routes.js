@@ -1,5 +1,5 @@
-import userModule from '../components/user/user.module.js';
+import productModule from '../components/modules/product.module.js';
 
 export default (app) => {
-  app.use('/users', userModule.router);
+  app.use('/products', productModule.router);
 };
